@@ -61,7 +61,7 @@ console.log("Birthday : " + yearValue, month, date);
 let bdayArray = [];
 
 let birthYear = parseInt(bDay.substr(6, 7));
-let birthMonth = parseInt(bDay.substr(2,2)); ////////////error
+let birthMonth = parseInt(bDay.substr(2,2)); 
 let birthDate = parseInt(bDay.substr(0, 2));
 
 if (
